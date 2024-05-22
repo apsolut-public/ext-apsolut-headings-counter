@@ -1,0 +1,42 @@
+/**
+ * Place your custom CSS styles here.
+  --color-dark: #162d3d;
+  var(--main-bg-color);
+ **/
+
+:root {
+    --body-bg: #e1e3b7;
+    --body-color: #1b1b1b;
+    --color-one: #e01b6e;
+    --color-two: #FCC733;
+    --color-dark: #232323;
+    --color-black: #010810;
+    --color-gray: #66737c;
+    --color-gray-light: #dddddd;
+    --color-green: #18a843;
+    --color-white: #ffffff;
+    --color-light: #e1e3b7;
+    --color-brand: #e6552d;
+    --color-brand-dark: #bd3914;
+}
+
+body {
+font-family: Arial, sans-serif;
+}
+  
+#container {
+padding: 10px;
+}
+
+h1 {
+font-size: 1.5em;
+}
+
+p {
+font-size: 1.2em;
+}
+  
+
+/*html:not(img){*/
+/*    filter: invert(100%) hue-rotate(180deg);*/
+/*}*/
